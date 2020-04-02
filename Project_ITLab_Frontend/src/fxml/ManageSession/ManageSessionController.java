@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
 
@@ -24,9 +25,14 @@ public class ManageSessionController{
     @FXML
     private Button btnTest;
 
+    @FXML
+    private BorderPane rootEdit;
+
 
     public void editSession(ActionEvent actionEvent) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("../" + Pages.EditSession + "/" + Pages.EditSession + ".fxml"));
+        rootEdit.setRight(root);
+
     }
 
     

@@ -45,9 +45,9 @@
          <center>
             <BorderPane fx:id="borderPage" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="800.0" prefWidth="850.0" BorderPane.alignment="CENTER">
                <top>
-                  <AnchorPane prefHeight="100.0" BorderPane.alignment="CENTER">
+                  <AnchorPane prefHeight="100.0" prefWidth="850.0" BorderPane.alignment="CENTER">
                      <children>
-                        <Button id="loginButton" fx:id="btnExit" defaultButton="true" focusTraversable="false" layoutX="699.0" layoutY="30.0" maxHeight="40.0" maxWidth="120.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: rgba(220,20,60); -fx-skin: 'fxml.Skins.ConfirmButtonSkin'; -fx-background-radius: 20px;" styleClass="loginButton" text="Exit" textFill="WHITE">
+                        <Button id="loginButton" fx:id="btnExit" defaultButton="true" focusTraversable="false" layoutX="767.0" layoutY="11.0" maxHeight="40.0" maxWidth="120.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: rgba(220,20,60); -fx-skin: 'fxml.Skins.ConfirmButtonSkin'; -fx-background-radius: 20px;" styleClass="loginButton" text="Exit" textFill="WHITE">
                            <font>
                               <Font size="16.0" />
                            </font>
@@ -56,9 +56,6 @@
                      </children>
                   </AnchorPane>
                </top>
-               <center>
-                  <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
-               </center>
             </BorderPane>
          </center>
       </BorderPane>
